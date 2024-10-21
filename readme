@@ -1,0 +1,31 @@
+# Sistema de Gerenciamento de Inventário
+
+Este projeto é um sistema básico para gerenciamento de inventário de produtos em um armazém, utilizando SQL para criar, gerenciar e consultar o banco de dados.
+
+## Funcionalidades
+
+1. **Criação de Tabelas**:
+   - **Produtos**: Armazena informações dos produtos, como nome, descrição, preço, quantidade em estoque e a categoria à qual pertence.
+   - **Categorias**: Define as categorias dos produtos.
+   - **Fornecedores**: Registra os fornecedores, seus contatos e endereços.
+
+2. **Operações CRUD**:
+   - Inserir dados nas tabelas de produtos, categorias e fornecedores.
+   - Consultar produtos disponíveis em estoque e com base em categorias.
+   - Atualizar preços, descrições e informações de fornecedores.
+   - Excluir produtos, categorias e fornecedores, garantindo a integridade referencial.
+
+## Pré-requisitos
+
+- **MySQL** ou qualquer outro servidor de banco de dados compatível.
+- Ferramenta para execução de scripts SQL, como o **MySQL Workbench**.
+
+## Como usar
+
+### Passo 1: Criar o banco de dados
+
+Execute o seguinte comando SQL para desativar o modo de atualização segura, criar o banco de dados e as tabelas, e inserir os dados iniciais:
+
+```sql
+SET SQL_SAFE_UPDATES = 0;
+-- Continue com o script completo do projeto (vide script SQL fornecido)
