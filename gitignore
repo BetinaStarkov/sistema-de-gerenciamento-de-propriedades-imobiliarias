@@ -1,0 +1,29 @@
+
+---
+
+## .gitignore
+
+Aqui está um exemplo de **.gitignore** adequado para um projeto SQL, especialmente se estiver usando ferramentas como o MySQL Workbench e outros arquivos que podem ser gerados automaticamente:
+
+```gitignore
+# Arquivos do MySQL Workbench
+*.mwb
+
+# Backups de banco de dados
+*.bak
+*.sql~
+
+# Arquivos de log
+*.log
+
+# Arquivos temporários do sistema
+*.tmp
+*.swp
+
+# Configurações locais
+.env
+config.php
+
+# Sistema operacional específico
+.DS_Store
+Thumbs.db
